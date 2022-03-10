@@ -1,0 +1,167 @@
+/**************************************************TAG SELECTORS******************************************************************/
+
+
+body{
+  font-family: 'Merriweather', serif;
+  margin: 0;
+}
+
+h1{
+  color: #064663;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 5.265rem;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+}
+
+h2{
+  color: #064663;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  line-height: 2;
+}
+
+h3{
+  color: #ECB365;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+}
+
+a{
+  color: #ECB365;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+}
+
+hr{
+  border-color: #041C32;
+  border-style: dotted none none none;
+  border-width: 10px;
+  width: 10%;
+}
+
+p{
+  line-height: 2;
+}
+
+
+
+/**************************************************ClASS SELECTORS******************************************************************/
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.bottom-container{
+  background-color: #04293A;
+  color: #F5F2E7;
+  padding: 50px 0 50px 0;
+  text-align: center;
+}
+
+.btn {
+  background: #041C32;
+  background-image: -webkit-linear-gradient(top, #041C32, #04293A);
+  background-image: -moz-linear-gradient(top, #041C32, #04293A);
+  background-image: -ms-linear-gradient(top, #041C32, #04293A);
+  background-image: -o-linear-gradient(top, #041C32, #04293A);
+  background-image: linear-gradient(to bottom, #041C32, #04293A);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #04293A;
+  background-image: -webkit-linear-gradient(top, #04293A, #064663);
+  background-image: -moz-linear-gradient(top, #04293A, #064663);
+  background-image: -ms-linear-gradient(top, #04293A, #064663);
+  background-image: -o-linear-gradient(top, #04293A, #064663);
+  background-image: linear-gradient(to bottom, #04293A, #064663);
+  text-decoration: none;
+}
+
+.career{
+  color: #ECB365;
+  font-family: 'DM Mono', monospace;
+}
+
+.contact-me{
+  margin: 100px auto;
+  width: 50%;
+}
+
+.contact-message{
+  margin: 50px auto;
+}
+
+.footer-copyright{
+  color: #F5F2E7;
+  margin-top: 50px;
+}
+
+.footer-link{
+  margin: 25px;
+  text-decoration: none;
+}
+
+.middle-container{
+  text-align: center;
+}
+
+.name{
+  color: #ECB365;
+}
+
+.profile{
+  margin: 100px auto;
+  width: 25%;
+}
+
+.profile-pic{
+  width: 50%;
+}
+
+.skill1{
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+.skill2{
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.skills{
+  margin: 100px auto 100px auto;
+}
+
+.skill-row{
+  line-height: 2;
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.top-container{
+  color: white;
+  background-color: #041C32;
+  padding-top: 100px;
+  position: relative;
+  text-align: center;
+}
